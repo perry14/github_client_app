@@ -1,4 +1,3 @@
-// 提供五套可选主题色
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
@@ -6,6 +5,9 @@ import 'package:github_client_app/models/cacheConfig.dart';
 import 'package:github_client_app/models/profile.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../index.dart';
+
+// 提供五套可选主题色
 const _themes = <MaterialColor>[
   Colors.blue,
   Colors.cyan,
